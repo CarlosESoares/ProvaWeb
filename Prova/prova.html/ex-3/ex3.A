@@ -1,0 +1,31 @@
+1°Podemos usar a tag Style de um modo universal
+EX:
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--estilo "universal"-->
+    <style>
+
+    </style>
+    <!--estilo "universal"-->
+
+</head>
+<body>
+    
+</body>
+2° podemos usar tambem a tag Style em um só elemento 
+
+EX:
+<p style="color: black;"></p>
+
+3°:podemos usar extendendo de outro arquivo a tag 
+
+Vantagens de cada uma 
+
+na 1° forma ao colocar no topo do arquivo podemos estilizar todas as tags colocadas caso precisemos que uma tag que se repita seja diferente precisaremos colocar IDS nela devido ao efeito cascata
+
+Na 2° formar nós modificams somente aquele trecho da pagina o que faz nao se aplicar a todas as outras tags 
+
+na 3° é modificado fora do arquivo o que deixa o codigo mais "limpo" visualmente mas seguindo a regra da 1° forma.

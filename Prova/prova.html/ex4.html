@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bandeiras</title>
+    <style>
+        .tudo {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .bandeira {
+            transition: transform 0.3s; 
+            flex: 1 1 300px;
+            max-width: 300px; 
+            box-sizing: border-box; 
+        }
+
+        .band-italia {
+            display: flex;
+            height: 200px;
+            border: 1px solid black;
+        }
+
+        .verde {
+            width: 100px;
+            height: 200px;
+            background-color: rgb(16, 160, 16);
+        }
+
+        .branco {
+            display: flex;
+            justify-content: center;
+            width: 100px;
+            height: 200px;
+            background-color: white;
+        }
+
+        .vermelho {
+            display: flex;
+            width: 100px;
+            height: 200px;
+            justify-content: center;
+            background-color: red;
+        }
+
+        .ban-japao {
+            display: flex;
+            justify-content: center;
+            border: 1px solid black;
+            height: 200px;
+        }
+
+        .branco2 {
+            width: 300px;
+            height: 200px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+        }
+
+        .rodavermelha {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+        }
+
+        .franca {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            height: 200px;
+            flex-grow: 1;
+        }
+
+        .vermelho3 {
+            flex: 1; 
+            background-color: red;
+        }
+
+        .branca3 {
+            flex: 1;
+            background-color: white;
+        }
+
+        .azul {
+            flex: 1; 
+            background-color: blue;
+        }
+
+       
+        .band-italia:hover,
+        .ban-japao:hover,
+        .franca:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="tudo">
+        <div class="ban-japao bandeira">
+            <div class="branco2">
+                <div class="rodavermelha"></div>
+            </div>
+        </div>
+
+        <div class="franca bandeira">
+            <div class="vermelho3"></div>
+            <div class="branca3"></div>
+            <div class="azul"></div>
+        </div>
+
+        <div class="band-italia bandeira">
+            <div class="verde"></div>
+            <div class="branco"></div>
+            <div class="vermelho"></div>
+        </div>
+    </div>
+</body>
+</html>
